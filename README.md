@@ -1,3 +1,3 @@
 # adsb-iot
 
-Consists of three functions, github/anders-brolien/adsb-iot-gateway
+Consists of three functions, anders-brolien/adsb-iot-gateway
