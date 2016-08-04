@@ -9,7 +9,7 @@ The result is produced as geojson by a microservice running in a docker containe
 ![alt text](overview.png "Overview")
 
 The microservice is consumed by a javascript webpage and presented on a map 
-([check here](http://adsb-iot-frontend-brolle75.c9users.io/))
+([check here](http://adsb-iot-web-frontend.s3-website-us-west-2.amazonaws.com))
 
 ![alt text](browser.png "Browser")
 
