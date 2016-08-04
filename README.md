@@ -5,7 +5,7 @@ It is possible to receive [ADSB](https://en.wikipedia.org/wiki/Automatic_depende
 
 The result is produced as geojson by a microservice running in a docker container on Amazon AWS EC2 [The running flight service](http://flight-service.brolien.eu/flights)
 
-The microservice is consumed by a javascript webpage and presented on a map [Presentation](http://adsb-iot-frontend-brolle75.c9users.io/)
+The microservice is consumed by a javascript webpage and presented on a map [check here](http://adsb-iot-frontend-brolle75.c9users.io/)
 
 Build Consists of three functions, each in different github repositories:
 - [adsb-iot-gateway](https://github.com/anders-brolien/adsb-iot-gateway)
