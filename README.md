@@ -13,8 +13,14 @@ The microservice is consumed by a javascript webpage and presented on a map
 
 ![alt text](browser.png "Browser")
 
-Build Consists of three functions, each in different github repositories:
+The Software consists of three functions, each in different github repositories:
 - [adsb-iot-gateway](https://github.com/anders-brolien/adsb-iot-gateway)
 - [adsb-iot-flight-service](https://github.com/anders-brolien/adsb-iot-flight-service)
 - [adsb-iot-web-fontend](https://github.com/anders-brolien/adsb-iot-web-frontend)
+
+CI is performed by snap-ci, status can be seen [here](https://snap-ci.com/dashboard?view=tile):
+- the static webpages are pushed to a AWS S3 bucket. 
+- the gateway is build and pushed to another AWS S3 bucket from which the Raspberry PI cyclicly fetches the latest release. - the flight service is build and a docker image is pushed to the repository. Left to do is auto updating of the AWS EC2 instance. 
+ 
+
  
