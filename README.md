@@ -20,7 +20,9 @@ The Software consists of three functions, each in different github repositories:
 
 CI is performed by snap-ci, status can be seen [here](https://snap-ci.com/dashboard?view=tile):
 - the static webpages are pushed to a AWS S3 bucket. 
-- the gateway is build and pushed to another AWS S3 bucket from which the Raspberry PI cyclicly fetches the latest release. - the flight service is build and a docker image is pushed to the repository. Left to do is auto updating of the AWS EC2 instance. 
+- the gateway is built and pushed to another AWS S3 bucket from which the Raspberry PI cyclicly fetches the latest release. 
+- the flight service is built and a docker image is pushed to the repository. 
+- left to do is auto updating of the AWS EC2 instance after update of docker image 
  
 
  
