@@ -14,9 +14,9 @@ The microservice is consumed by a javascript webpage and presented on a map
 ![alt text](browser.png "Browser")
 
 The Software consists of three functions, each in different github repositories:
-- [adsb-iot-gateway](https://github.com/anders-brolien/adsb-iot-gateway)
-- [adsb-iot-flight-service](https://github.com/anders-brolien/adsb-iot-flight-service)
-- [adsb-iot-web-fontend](https://github.com/anders-brolien/adsb-iot-web-frontend)
+- [adsb-iot-gateway](https://github.com/anders-brolien/adsb-iot-gateway) [![Build Status](https://snap-ci.com/anders-brolien/adsb-iot-gateway/branch/master/build_image)](https://snap-ci.com/anders-brolien/adsb-iot-gateway/branch/master)
+- [adsb-iot-flight-service](https://github.com/anders-brolien/adsb-iot-flight-service) [![Build Status](https://snap-ci.com/anders-brolien/adsb-iot-flight-service/branch/master/build_image)](https://snap-ci.com/anders-brolien/adsb-iot-flight-service/branch/master)
+- [adsb-iot-web-fontend](https://github.com/anders-brolien/adsb-iot-web-frontend) [![Build Status](https://snap-ci.com/anders-brolien/adsb-iot-web-frontend/branch/master/build_image)](https://snap-ci.com/anders-brolien/adsb-iot-web-frontend/branch/master)
 
 CI is performed by snap-ci, status can be seen [here](https://snap-ci.com/dashboard?view=tile):
 - the static webpages are pushed to a AWS S3 bucket. 
