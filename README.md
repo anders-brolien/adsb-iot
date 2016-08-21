@@ -1,6 +1,8 @@
 # adsb-iot
 ADSB data from an DVB-T recevier to the cloud using AWS IoT and presented on a dynamic map in your browser.
 
+[Presentation](http://slides.com/brolle75/ads-b-iot)
+
 It is possible to receive [ADSB](https://en.wikipedia.org/wiki/Automatic_dependent_surveillance_–_broadcast) using a DVB-T recevier. This project started as a Raspberrypi experiment, where ADSB was receveived on the device. It then expanded to publish the received information using Amazon AWS IoT and storing the information in DynamoDB tables. 
 
 The result is produced as geojson by a microservice running in a docker container on Amazon AWS EC2. 
